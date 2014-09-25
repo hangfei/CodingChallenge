@@ -24,7 +24,7 @@ The TextScraper Class is the main class. It coordinates different modules and ha
 - org.w3c.dom
 - org.apache.http
 
-##Usge instructions 
+##Usage instructions 
 The programe is provided as a Java runnable jar file.
 To run this, you have two options:
 - Query 1: (requires a single argument)  
