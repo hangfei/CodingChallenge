@@ -1,11 +1,19 @@
 BrightEdge Codinng Challenge
 ===============
 ##Description
-Predicted the rating of Yelp reviews given review text and other review information
-- Processed the raw data, including information retrieval, feature selection, data rescaling, bigrams
-- Implemented and combined various models, including PCA/SVD, SVM, Logistic Regression
-- Visualized sentiment analysis results
-- Enabled restaurants to improve their services via the feedback of low rating review
+Design and build a robust text scraper that will connect to a page on www.shopping.com and return results about a given keyword. There are two queries that will be performed:  
+
+Query 1: Total number of results  
+Given a keyword, such as "digital camera", return the total number of results found.  
+Query 2: Result Object  
+Given a keyword (e.g. "digital cameras") and page number (e.g. "1"), return the results in a result object and then print results on screen. For each result, return the following information:  
+Title/Product Name (e.g. "Samsung TL100 Digital Camera")  
+Price of the product  
+Shipping Price (e.g. "Free Shipping", "$3.50")  
+Vendor (e.g. "Amazon", "5 stores")  
+
+For "digital cameras", there should be either 40 or 80 results that return for page 1.  
+
 
 ##Project Architectrue
 (For detailed instructions, please check README, not README.md)  
@@ -13,8 +21,6 @@ We have tried multiple methods to pushing the edges of our results. The optimal 
 For other models we have develop, please check the README file.  
 Data  
 The data is in the data package, including raw data and some other processed data.
-
-####Results:
 
 
 ####Supporting Package:
@@ -32,7 +38,7 @@ java -jar Assignment.jar <keyword> <page number> (e.g. java -jar Assignment.jar 
 
 
 ##Where to get help
-TBD
+Please contact hangfeilin@gmail.com
 
 ##Contribution guidelines
 TBD
@@ -41,3 +47,4 @@ TBD
 Hangfei Lin
 
 ##Credits, Inspiration, Alternatives
+BrightEdge Inc.
