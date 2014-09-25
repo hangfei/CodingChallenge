@@ -25,9 +25,9 @@ The data is in the data package, including raw data and some other processed dat
 ##Usge instructions 
 The programe is provided as a Java runnable jar file.
 To run this, you have two options:
-- Query 1: (requires a single argument) 
+- Query 1: (requires a single argument)  
 java -jar Assignment.jar <keyword> (e.g. java -jar Assignment.jar "baby strollers") 
-- Query 2: (requires two arguments) 
+- Query 2: (requires two arguments)  
 java -jar Assignment.jar <keyword> <page number> (e.g. java -jar Assignment.jar "baby strollers" 2) 
 
 
