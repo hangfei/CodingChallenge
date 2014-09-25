@@ -16,11 +16,7 @@ For "digital cameras", there should be either 40 or 80 results that return for p
 
 
 ##Project Architectrue
-(For detailed instructions, please check README, not README.md)  
-We have tried multiple methods to pushing the edges of our results. The optimal one(with best accuracy and best speed) is in the init_model.m and make_final_prediction.m file(You could try to run script_test.m to test).  
-For other models we have develop, please check the README file.  
-Data  
-The data is in the data package, including raw data and some other processed data.
+
 
 
 ####Supporting Package:
