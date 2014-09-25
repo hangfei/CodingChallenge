@@ -16,6 +16,8 @@ For "digital cameras", there should be either 40 or 80 results that return for p
 
 
 ##Project Architectrue
+![picture alt](https://github.com/hangfei/CodingChallenge/blob/master/BrightEdge.jpg "Title is optional")
+
 The TextScraper Class is the main class. It coordinates different modules and handles the main procedures.  
 The procedures including request search result, and get response and parse through the results. The requesting and response of HTTP to shopping.com is handled by HTTPClient class. The conversion to w3c DOM is handled by DomOperator class. The parsing is handled by WebpageParsingModule. And there are also some helper classes, like FileOpeartor, ProjectHelper and one data model class.
 
